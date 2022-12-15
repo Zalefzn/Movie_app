@@ -10,17 +10,25 @@ class LoginPage extends StatefulWidget {
 class _Login extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    
     Widget headerContent() {
-      return Container(
-
-      );
+      return Container();
     }
 
-    // SizeConfig().init(context);
+    Widget contentIsi() {
+      return Container();
+    }
+
+    Widget formData() {
+      return Container();
+    }
+
+    // SizeConfig()init(context);
     return Scaffold(
       body: Column(
-        children: [],
+        children: [
+          headerContent(),
+          contentIsi(),
+        ],
       ),
     );
   }
