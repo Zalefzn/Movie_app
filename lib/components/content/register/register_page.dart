@@ -10,6 +10,20 @@ class RegisterPage extends StatefulWidget {
 class _Register extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    Widget containerHead() {
+      return Container();
+    }
+
+    Widget containerContent() {
+      return Container();
+    }
+
+    return Scaffold(
+        body: Column(
+      children: [
+        containerHead(),
+        containerContent(),
+      ],
+    ));
   }
 }
